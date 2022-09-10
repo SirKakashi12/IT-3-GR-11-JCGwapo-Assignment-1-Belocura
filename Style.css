@@ -1,0 +1,109 @@
+    * {
+        margin: 0;
+        padding: 0;
+    }
+
+        /* navigation shit */
+
+    #logo {
+        width: 100px;
+        float:left;
+
+    }
+
+    body {
+        background-color: rgb(212, 212, 212);
+    }
+
+    nav .wrapper {
+        margin: 0 auto;
+        width: 1000px;
+    }
+
+    nav {
+        width: 100%;
+        height: 100px;
+        background-color: white;
+    }
+    
+    ul {
+        margin-left: 200px;
+        width: 100%;
+        height: 100px;
+        margin-left: -15px;
+    }
+
+    ul li {
+        list-style: none;
+        display:inline-block;
+        float: left;
+        line-height: 100px;
+    }
+
+    ul li a {
+        display: block;
+        text-decoration: none;
+        font-size: 20px;
+        font-family: arial;
+        color: rgb(26, 23, 23);
+        padding: 0 20px
+    }
+
+    ul li a:hover {
+        color: red;
+        background-color: rgb(59, 59, 59);
+    }
+
+    .wrapper {
+        margin: 0 auto;
+        width: 1000px;
+    }
+
+    /* home shit */
+
+   .ndnav {
+        background-color: black;
+        color: white;     
+   }
+
+    .background-home {
+        width: 100%;
+        height: 772px;
+        background-image: url(pic/bodybackground-img.jpg);
+        background-repeat: no-repeat;
+        background-size: cover
+    }    
+    
+    .background-masks-types {
+        width: 100%;
+        height: 772px;
+        background-image: url(pic/masks-types-background-img.jpg);
+        background-repeat: no-repeat;
+        background-size: cover
+    }  
+
+
+    .background-store {
+        width: 100%;
+        height: 772px;
+        background-image: url(pic/store-background-img.jpg);
+        background-repeat: no-repeat;
+        background-size: cover
+    }  
+
+    #home {
+        background-image: url(pic/bodybackground-img.jpg);
+        background-size: contain;
+    }
+
+    #masks-type-body {
+        background-image: url(pic/masks-types-background-img.jpg);
+        background-size: contain;
+    }
+
+    #store-body {
+        background-image: url(pic/store-background-img.jpg);
+        background-size: contain;
+    }
+
+   
